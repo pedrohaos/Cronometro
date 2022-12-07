@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;800&family=Roboto:wght@800&display=swap');
+
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: #282828;
+}
+
+.cronometro{
+    text-align: center;
+}
+
+.cronometro h1{
+    color: cyan;
+    font: 800 7.5rem 'Montserrat';
+    margin-bottom: 50px;
+}
+
+.cronometro .cronometro__item{
+    color: #FFFFFF;
+    width: 200px;
+    height: 200px;
+    margin: 0 15px;
+    text-align: center;
+    display: inline-block;
+    box-shadow: -3px -3px 7px rgba(255, 255, 255, .05),
+                3px 3px 5px rgba(0, 0, 0, .5);
+}
+
+.cronometro .cronometro__item span{
+    font: 800 7.5rem 'Roboto';
+}
+
+.cronometro .cronometro__item div{
+ font: 500 1.5rem 'Montserrat';
+}
+
+.cronometro .cor{
+    color: cyan;
+}
